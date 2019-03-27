@@ -12,17 +12,16 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
-            'view' => [
+        'view' => [
             'theme' => [
-            'pathMap' => [
-            '@app/views' => '@app/themes/adminlte'
-            ],
-        ],
-    ],
-            
+                'pathMap' => [
+                    '@app/views' => '@app/themes/adminlte'
+                            ],
+                        ],
+                    ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '-XJM0WmljUFnSD7GPwc-QqvX5owybuw8',
+            'cookieValidationKey' => 'IFpgIoO6otC0VDwqqx345uaiCpxCALO7',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
